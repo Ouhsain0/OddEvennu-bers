@@ -30,6 +30,7 @@ partial class Form1
     {
         button1 = new Button();
         checkBox1 = new CheckBox();
+        chTOTO = new CheckBox();
         SuspendLayout();
         // 
         // button1
@@ -50,11 +51,22 @@ partial class Form1
         checkBox1.Text = "checkBox1";
         checkBox1.UseVisualStyleBackColor = true;
         // 
+        // chTOTO
+        // 
+        chTOTO.AutoSize = true;
+        chTOTO.Location = new Point(363, 26);
+        chTOTO.Name = "chTOTO";
+        chTOTO.Size = new Size(53, 19);
+        chTOTO.TabIndex = 2;
+        chTOTO.Text = "TOTO";
+        chTOTO.UseVisualStyleBackColor = true;
+        // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(800, 450);
+        Controls.Add(chTOTO);
         Controls.Add(checkBox1);
         Controls.Add(button1);
         Name = "Form1";
@@ -66,4 +78,5 @@ partial class Form1
 
     private Button button1;
     private CheckBox checkBox1;
+    private CheckBox chTOTO;
 }
